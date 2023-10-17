@@ -19,9 +19,14 @@ client.on('ready', () => {
 client.on('messageCreate', (message) => {
     if(message.author.bot) return
     if(message.content == "oi"){
-        message.reply("morre")
+        message.reply("Aqui esta minhas musicas:")
     }else{
-        message.reply("sim")
+        message.reply("imagine as pessoa tudo")
+    }
+
+    if(message.author.bot) return
+    if(message.content == "mostre"){
+        message.reply("Imagine")
     }
 })
 
